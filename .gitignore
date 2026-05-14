@@ -12,7 +12,7 @@ dataset/labels/
 
 # Model weights (download separately)
 *.pt
-*.onnx
+# *.onnx
 *.engine
 
 # Python cache
