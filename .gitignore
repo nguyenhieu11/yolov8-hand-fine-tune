@@ -1,0 +1,26 @@
+# Virtual environment — never commit this
+venv/
+.venv/
+env/
+
+# YOLO training outputs
+runs/
+
+# Downloaded dataset (large, re-downloadable)
+dataset/images/
+dataset/labels/
+
+# Model weights (download separately)
+*.pt
+*.onnx
+*.engine
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+.cache/
+
+# OS files
+.DS_Store
+Thumbs.db

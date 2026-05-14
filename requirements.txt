@@ -1,0 +1,22 @@
+# ============================================================
+# requirements.txt  — Laptop testing dependencies only
+# Install with:
+#   source venv/bin/activate
+#   pip install -r requirements.txt
+#
+# Training, dataset download, and model export all happen
+# inside Google Colab. This file only installs what is needed
+# to run scripts/test_inference.py (webcam / image testing).
+# ============================================================
+
+# Run .onnx model on CPU (the core inference engine)
+onnxruntime>=1.17.0
+
+# Camera capture, image read/write, draw bounding boxes
+opencv-python>=4.8.0
+
+# Array math (required by onnxruntime and opencv)
+numpy>=1.24.0
+
+# Image format support (jpeg, png, etc.)
+Pillow>=10.0.0
